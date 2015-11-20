@@ -1,0 +1,182 @@
+$content-width: 1024px;
+
+.backend-page {
+    margin: 0 auto;
+    padding-bottom: 130px;
+
+    .nav {
+        $nav-height: 100px;
+
+        background: #4D87D0;
+        height: $nav-height;
+        width: 100%;
+        
+        .nav-content {
+            color: #FFF;
+            margin: 0 auto;
+            width: $content-width;
+
+            .ad {
+                display: inline-block;
+                float: left;
+                font-size: 24px;
+                height: $nav-height;
+                line-height: $nav-height;
+                padding-left: 10px;
+                width: 40%;
+            }
+
+            .consult { 
+                display: inline-block;
+                float: right;
+                font-size: 12px;
+                height: $nav-height;
+                line-height: $nav-height;
+
+                .consult-cs {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+
+                .image {
+                    background-image: url("../img/manage-util.png");
+                    background-repeat: no-repeat;
+                    background-position: 10px -102px;
+                    display: inline-block;
+                    height: 25px;
+                    width: 40px;
+                    vertical-align: middle;
+                }
+            }
+
+            .user {
+                display: inline-block;
+                float: right;
+                font-size: 12px;
+                height: $nav-height;
+                line-height: $nav-height;
+                margin-left: 20px;
+
+                .username {
+                    font-weight: bold;
+                }
+
+                .image {
+                    background-image: url("../img/manage-util.png");
+                    background-repeat: no-repeat;
+                    background-position: 10px -135px;
+                    display: inline-block;
+                    height: 25px;
+                    width: 40px;
+                    vertical-align: middle;
+                }
+
+                .sign-out {
+                    cursor: pointer;
+                    margin-left: 10px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .content{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 1024px;
+
+        $left-padding: 40px;
+
+        .toggle-feature {
+            border-right: 2px solid #E1E1E1;
+            display: inline-block;
+            float: left;
+            min-width: 15%;
+            padding-top: 15px;
+            padding-right: 10px;
+
+            .image {
+                position: absolute;
+                left: -10px;
+                top: -5px;
+                background-image: url("../img/manage-util.png");
+                background-repeat: no-repeat;
+                display: inline-block;
+                height: 35px;
+                width: 40px;
+                vertical-align: middle;
+
+                & + span {
+                    display: inline-block;
+                    margin-left: $left-padding;
+                }
+            }
+
+            .title-index {
+                font-weight: bold;
+                height: 50px;
+                position: relative;
+
+                .image {
+                    background-position: 10px 0px;
+                }
+            }
+            
+            .title-management {
+                font-weight: bold;
+                height: 20px;
+                position: relative;
+
+                .image {
+                    background-position: 10px -33px;
+                }
+            }
+
+            ul {
+                padding: 10px 0;
+
+                li {
+                    color: #7A7A7A;
+                    cursor: pointer;
+                    font-size: 14px;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-left: $left-padding;
+
+                    a:hover {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .title-lessons {    
+                font-weight: bold;
+                height: 20px;
+                position: relative;
+
+                .image {
+                    background-position: 10px -67px;
+                }
+            }
+        }
+
+        .container {
+            width: 74%;
+            float: left;
+        }
+    }
+
+    .clear {
+        clear: both;
+    }
+}
+
+.ie8 {
+    input {
+        padding-top: 8px;
+    } 
+
+    select {
+        padding-bottom: 5px;
+    } 
+}

@@ -1,0 +1,36 @@
+.lotterys-management {
+    display: none;
+
+    .clear {
+        clear: both;
+    }
+
+    .item {
+        cursor: pointer;
+        display: block;
+        float: left;
+        height: 20px;
+        width: 120px;
+        margin-left: 50px;
+        margin-top: 30px;
+    } 
+
+    .title {
+        color: #7B7B7B;
+        margin-left: 50px;
+    }
+
+    .low-frequencey {
+        margin-top: 50px;
+    }
+
+    button {
+        background: #4D87D0;
+        color: #FFF;
+        cursor: pointer;
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 40%;
+        width: 120px;
+    }
+}
