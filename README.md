@@ -1,2 +1,0 @@
-# wbga-b
-wbga-b
