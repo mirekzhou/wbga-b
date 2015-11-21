@@ -102,7 +102,6 @@
     initPlaceHolder();
     initIE8();
     bindEvents();
-    
 })();
 
 
