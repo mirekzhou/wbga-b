@@ -144,7 +144,7 @@ $content-width: 1024px;
                     margin-left: $left-padding;
 
                     a:hover {
-                        font-size: 16px;
+                        color: #4D87D0;
                     }
                 }
             }
@@ -161,12 +161,12 @@ $content-width: 1024px;
         }
 
         .container {   
-            height: auto; 
             width: 74%;
             float: left;
 
             iframe {
                 display: none;
+                height: auto; 
                 width: 100%;
             } 
         }

@@ -52,8 +52,23 @@
         }
     }
 
+    function getDocHeight(iframe) {
+        var D = document;
+        return Math.max(
+            D.body.scrollHeight, D.documentElement.scrollHeight,
+            D.body.offsetHeight, D.documentElement.offsetHeight,
+            D.body.clientHeight, D.documentElement.clientHeight
+        );
+    }
+    
+    function resize() {
+        var height = getDocHeight($('#myiframe')[0]) + 300;
+        $('#myiframe').css('height',height);
+    }
+
     function showIframe() {
         $('#myiframe').show();
+        resize();
     }
 
     function bindEvents() {
@@ -100,6 +115,7 @@
 
     initI18next();
     initPlaceHolder();
+    resize();
     initIE8();
     bindEvents();
 })();
