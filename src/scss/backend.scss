@@ -160,9 +160,15 @@ $content-width: 1024px;
             }
         }
 
-        .container {
+        .container {   
+            height: auto; 
             width: 74%;
             float: left;
+
+            iframe {
+                display: none;
+                width: 100%;
+            } 
         }
     }
 

@@ -52,6 +52,10 @@
         }
     }
 
+    function showIframe() {
+        $('#myiframe').show();
+    }
+
     function bindEvents() {
         $('.sign-out').click(function() {
             window.location.href='login.html';
@@ -63,26 +67,32 @@
                 queryAdditionalBets.hide();
                 queryTransfers.hide();
                 lotterysManagement.hide();
+                $('#myiframe').hide();
                 queryBets.show();
             } else if (tar.attr('class') === 'q2') {
                 queryBets.hide();
                 queryTransfers.hide();
                 lotterysManagement.hide();
+                $('#myiframe').hide();
                 queryAdditionalBets.show();
             } else if (tar.attr('class') === 'q3') {
                 queryBets.hide();
                 queryAdditionalBets.hide();
                 lotterysManagement.hide();
+                $('#myiframe').hide();
                 queryTransfers.show();
             } else if (tar.attr('class') === 'q4') {
                 queryBets.hide();
                 queryAdditionalBets.hide();
                 queryTransfers.hide();
+                $('#myiframe').hide();
                 lotterysManagement.show();
             } else if (tar.attr('class') === 'q5') {
-                
-            } else if (tar.attr('class') === 'q6') {
-                
+                queryBets.hide();
+                queryAdditionalBets.hide();
+                queryTransfers.hide();
+                lotterysManagement.hide();
+                showIframe();
             }
             $('input, textarea').placeholder();
         });
