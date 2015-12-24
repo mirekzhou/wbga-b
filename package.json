@@ -4,6 +4,7 @@
   "description": "Website for wbga-b",
   "main": "src/index.html",
   "devDependencies": {
+    "blueimp-md5": "git+https://github.com/blueimp/JavaScript-MD5.git",
     "gulp": "^3.9.0",
     "gulp-add-src": "^0.2.0",
     "gulp-batch-replace": "0.0.0",

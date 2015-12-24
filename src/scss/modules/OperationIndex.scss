@@ -1,0 +1,119 @@
+.operation-index-ctrl {
+    margin: 0 auto;
+    padding: 15px;
+    width: 800px;
+
+    text[text-anchor=end] {
+        display: none;
+    }
+
+    .row1 {
+        width: 100%;
+        height: 400px;
+
+        .example1 {
+            display: inline-block;
+            width: 60%;
+            margin-right: 1%;
+            height: 100%;
+        }
+
+        .example2 {
+            display: inline-block;
+            width: 39%;
+            height: 100%;
+        }
+    }
+    
+    .row2 {
+        margin-top: 30px;
+
+        table {
+            width: 100%;
+
+            .title {
+                td {
+                    border-bottom: 1px solid #cccccc;
+                }
+            }
+
+            td {
+                text-align: center;
+            }
+        }
+    }
+
+    .row3 {
+        margin-top: 30px;
+        width: 100%;
+
+        table {
+            width: 100%;
+            font-size: 12px;
+            
+            .title1 {
+                td {
+                    border-top: 1px solid #CCCCCC;
+                }
+
+                .name {
+                    border-left: 1px solid #CCCCCC;
+                }
+            }
+
+            tr {
+                td {
+                    border-bottom: 1px solid #CCCCCC;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .row4 {
+        height: 240px;
+        margin-top: 30px;
+
+        .left {
+            margin-left: 1%;
+        }
+
+        .middle {
+            margin-left: 1%;
+        }
+
+        .right {
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+    }
+
+    .panel {
+        display: inline-block;
+        width: 31%;
+        height: 100%;
+        float: left;
+
+        .title {
+            width: 100%;
+            text-align: right;
+            font-size: 12px;
+        }
+
+        table {
+            width: 100%;
+            font-size: 14px;
+            height: 200px;
+            margin-top: 10px;
+
+            td {
+                text-align: center;
+            }
+
+            .odd {
+                background: #CCCCCC ;
+            }
+
+        }
+    }
+}

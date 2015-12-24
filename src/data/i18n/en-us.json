@@ -8,15 +8,6 @@
     "sign-out": "Sign out",
     "consult-online-service": "Please contact online customer service!",
     "click-here": "Click Here",
-    "operation-index": "Operation Index",
-    "operation-management": "Operation",
-    "query-bet-records": "Bet Records",
-    "query-additional-bet-records": "Additional Bet Records",
-    "query-transfers": "Transfers",
-    "lotterys-management": "Lottery Management",
-    "receipt-error": "Receipt Error",
-    "operation-lessons": "Operation Lessons",
-    "operation-lecture": "Operation lecture",
     "today": "Today",
     "2days": "2 days",
     "3days": "3 days",
@@ -44,5 +35,20 @@
     "next-page": "Next",
     "add-lotterys": "Add lotterys",
     "low-frequencey-lotterys": "Low frequencey lotterys",
-    "high-frequencey-lotterys": "High frequencey lotterys"
+    "high-frequencey-lotterys": "High frequencey lotterys",
+
+    "b-ul1-title": "运营管理",
+    "b-ul1-item1": "运营指标",
+    "b-ul1-item2": "数据分析",
+    "b-ul1-item3": "运营讲义",
+
+    "b-ul2-title": "投注管理",
+    "b-ul2-item1": "投注查询",
+    "b-ul2-item2": "追号查询",
+    "b-ul2-item3": "转账查询",
+    "b-ul2-item4": "系统公告",
+
+    "b-ul3-title": "游戏管理",
+    "b-ul3-item1": "彩种管理",
+    "b-ul3-item2": "更改主题"
 }

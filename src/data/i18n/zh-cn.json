@@ -8,15 +8,6 @@
     "sign-out": "退出",
     "consult-online-service": "有问题咨询在线客服?",
     "click-here": "点击此处",
-    "operation-index": "运营指标",
-    "operation-management": "运营管理",
-    "query-bet-records": "用户投注查询",
-    "query-additional-bet-records": "用户追号查询",
-    "query-transfers": "用户转账查询",
-    "lotterys-management": "彩种管理",
-    "receipt-error": "异常单查询",
-    "operation-lessons": "运营课堂",
-    "operation-lecture": "运营讲义",
     "today": "今天",
     "2days": "二天",
     "3days": "三天",
@@ -44,5 +35,20 @@
     "next-page": "下一页",
     "add-lotterys": "开通",
     "low-frequencey-lotterys": "低频彩",
-    "high-frequencey-lotterys": "高频彩"
+    "high-frequencey-lotterys": "高频彩",
+
+    "b-ul1-title": "运营管理",
+    "b-ul1-item1": "运营指标",
+    "b-ul1-item2": "数据分析",
+    "b-ul1-item3": "运营讲义",
+
+    "b-ul2-title": "投注管理",
+    "b-ul2-item1": "投注查询",
+    "b-ul2-item2": "追号查询",
+    "b-ul2-item3": "转账查询",
+    "b-ul2-item4": "系统公告",
+
+    "b-ul3-title": "游戏管理",
+    "b-ul3-item1": "彩种管理",
+    "b-ul3-item2": "更改主题"
 }

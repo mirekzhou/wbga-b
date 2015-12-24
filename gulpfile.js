@@ -63,7 +63,8 @@ gulp.task('prepare', ['clean'], function () {
             './bower_components/datatables/media/js/jquery.dataTables.js',
             './bower_components/datetimepicker/jquery.datetimepicker.js',
             './bower_components/html5shiv/dist/html5shiv.min.js',
-            './bower_components/respond/dest/respond.min.js'
+            './bower_components/respond/dest/respond.min.js',
+            './bower_components/highcharts/lib/highcharts.js'
         ])
         .pipe(gulp.dest(src_js_lib_path));
 
@@ -80,6 +81,7 @@ gulp.task('build-login', function(){
             'src/lib/js/bootstrap.min.js',
             'src/lib/js/i18next.js',
             'src/lib/js/jquery.placeholder.js',
+            'src/js/util/util.js',
             'src/js/login.js'
         ])
         .pipe(concat('login.min.js'))
@@ -110,6 +112,8 @@ gulp.task('build-backend', function(){
             'src/lib/js/jquery.placeholder.js',
             'src/lib/js/jquery.dataTables.js',
             'src/lib/js/jquery.datetimepicker.js',
+            'src/lib/js/highcharts.js',
+            'src/js/util/util.js',
             'src/js/modules/*.js',
             'src/js/backend.js'
         ])

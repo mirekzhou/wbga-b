@@ -34,6 +34,7 @@
     "datatables": "DataTables#~1.10.10",
     "datetimepicker": "~2.4.5",
     "jquery-placeholder": "https://github.com/mathiasbynens/jquery-placeholder.git#~2.3.0",
-    "jquery": "1.11.3"
+    "jquery": "1.11.3",
+    "highcharts": "~4.2.0"
   }
 }
